@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.diskwise.Diskwise</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Diskwise</name>
+  <summary>Know your drives</summary>
+  <description>
+    <p>Diskwise gives a clear picture of every drive in your computer: whether it is healthy, how fast it is, and how much power it uses. It can also format and partition drives, with safeguards that protect the disk your system runs from.</p>
+    <ul>
+      <li>Health: SMART and NVMe health logs turned into a score with plain-language findings</li>
+      <li>Temperature, power-on time, data written and wear</li>
+      <li>Live throughput, operations per second, utilization and latency</li>
+      <li>Speed tests: sequential and random read/write, and a read-only surface scan</li>
+      <li>Estimated power draw, energy use and power management settings</li>
+      <li>Self-tests, partition layout and device details</li>
+      <li>Format disks and partitions (ext4, Btrfs, XFS, exFAT, NTFS, FAT32, optional encryption), create and delete partitions, mount, unlock, check and repair</li>
+      <li>Power off, spin down and persistent drive settings such as standby timeout</li>
+    </ul>
+  </description>
+  <developer id="io.github.diskwise"><name>Diskwise contributors</name></developer>
+  <launchable type="desktop-id">io.github.diskwise.Diskwise.desktop</launchable>
+  <categories><category>System</category><category>Monitor</category></categories>
+  <requires><display_length compare="ge">360</display_length></requires>
+  <content_rating type="oars-1.1"/>
+  <releases><release version="1.0.0" date="2026-10-15"/></releases>
+</component>
