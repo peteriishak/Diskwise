@@ -12,7 +12,7 @@ import re
 import subprocess
 import sys
 from collections import deque
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 from gi.repository import GLib
 

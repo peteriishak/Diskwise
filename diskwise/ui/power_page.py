@@ -6,7 +6,7 @@ from ..backend import power
 from . import fmt
 from .charts import LineChart
 from .performance import time_hover, time_ticks
-from .widgets import StatTile, clear, info_row, page_box, section, tile_grid
+from .widgets import StatTile, info_row, page_box, section, tile_grid
 
 
 def watt_axis(v, precise=False):

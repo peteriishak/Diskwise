@@ -11,7 +11,7 @@ from gi.repository import Adw, Gdk, Gio, GLib, Gtk  # noqa: E402
 from . import __version__  # noqa: E402
 from .backend.udisks import UDisksClient  # noqa: E402
 
-APP_ID = "io.github.diskwise.Diskwise"
+APP_ID = "io.github.peteriishak.Diskwise"
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 
@@ -79,8 +79,12 @@ class DiskwiseApp(Adw.Application):
             application_name="Diskwise",
             application_icon=APP_ID,
             version=__version__,
-            developer_name="Diskwise contributors",
+            developer_name="Peter Habib",
+            developers=["Peter Habib https://github.com/peteriishak"],
+            copyright="© 2026 Peter Habib",
             comments="Know your drives: health, speed, power use and management in one place.",
+            website="https://github.com/peteriishak/Diskwise",
+            issue_url="https://github.com/peteriishak/Diskwise/issues",
             license_type=Gtk.License.GPL_3_0,
         )
         about.present(self.window)

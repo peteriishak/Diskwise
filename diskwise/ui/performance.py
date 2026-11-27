@@ -1,9 +1,8 @@
 import time
 
-from gi.repository import Adw, GLib, Gtk
+from gi.repository import Adw, Gtk
 
 from ..backend import benchmark
-from ..backend.iostats import HISTORY
 from . import fmt
 from .charts import LineChart
 from .widgets import StatTile, clear, legend, page_box, section, tile_grid

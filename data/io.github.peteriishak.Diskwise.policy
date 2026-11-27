@@ -3,10 +3,11 @@
  "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
 <policyconfig>
   <vendor>Diskwise</vendor>
-  <action id="io.github.diskwise.Diskwise.read-power-states">
+  <vendor_url>https://github.com/peteriishak/Diskwise</vendor_url>
+  <action id="io.github.peteriishak.Diskwise.read-power-states">
     <description>Read drive power state information</description>
     <message>Authentication is required to read the power state table of a drive</message>
-    <icon_name>io.github.diskwise.Diskwise</icon_name>
+    <icon_name>io.github.peteriishak.Diskwise</icon_name>
     <defaults>
       <allow_any>auth_admin</allow_any>
       <allow_inactive>auth_admin</allow_inactive>

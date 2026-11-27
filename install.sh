@@ -9,7 +9,7 @@ SRC="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 UNINSTALL=0
 if [[ "${1:-}" == "--uninstall" ]]; then UNINSTALL=1; shift; fi
 PREFIX="${1:-$HOME/.local}"
-APP_ID=io.github.diskwise.Diskwise
+APP_ID=io.github.peteriishak.Diskwise
 SHARE="$PREFIX/share"
 APPDIR="$SHARE/diskwise"
 

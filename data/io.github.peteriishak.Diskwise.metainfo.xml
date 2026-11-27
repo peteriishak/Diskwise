@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>io.github.diskwise.Diskwise</id>
+  <id>io.github.peteriishak.Diskwise</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
   <name>Diskwise</name>
@@ -18,10 +18,23 @@
       <li>Power off, spin down and persistent drive settings such as standby timeout</li>
     </ul>
   </description>
-  <developer id="io.github.diskwise"><name>Diskwise contributors</name></developer>
-  <launchable type="desktop-id">io.github.diskwise.Diskwise.desktop</launchable>
+  <developer id="io.github.peteriishak"><name>Peter Habib</name></developer>
+  <url type="homepage">https://github.com/peteriishak/Diskwise</url>
+  <url type="bugtracker">https://github.com/peteriishak/Diskwise/issues</url>
+  <url type="vcs-browser">https://github.com/peteriishak/Diskwise</url>
+  <launchable type="desktop-id">io.github.peteriishak.Diskwise.desktop</launchable>
   <categories><category>System</category><category>Monitor</category></categories>
   <requires><display_length compare="ge">360</display_length></requires>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Drive overview with health score, temperature and partition layout</caption>
+      <image>https://raw.githubusercontent.com/peteriishak/Diskwise/main/docs/screenshots/overview.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Health details and self-tests</caption>
+      <image>https://raw.githubusercontent.com/peteriishak/Diskwise/main/docs/screenshots/health.png</image>
+    </screenshot>
+  </screenshots>
   <content_rating type="oars-1.1"/>
   <releases><release version="1.0.0" date="2026-10-15"/></releases>
 </component>

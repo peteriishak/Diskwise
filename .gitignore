@@ -1,5 +1,25 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+build/
+dist/
+.venv/
+venv/
+
+# Lint caches
+.ruff_cache/
+.mypy_cache/
+
+# Packaging output
+*.rpm
+*.tar.gz
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
 
 # Design assets are kept out of the repository
 /Design/
